@@ -1,5 +1,22 @@
 新增 Python 與Javascript 對newtonXchange的支援
 
+Python安裝的步驟：
+1. python3 setup.py build
+2. python3 setup.py install
+
+移除ccxt  用pip3 uninstall ccxt
+會將以下檔案移除：
+/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/ccxt-1.18.240-py3.7.egg
+
+Javascript 安裝步驟：
+1. 把ccxt放到 node_modules 裡面
+2. npm install 
+或是
+1. 在 package.json 裡面的 dependencies 放上 ccxt 值就是 ccxt 的目錄位置
+2. npm install
+
+
+
 # BTC/USDT
 liqui
 btcalpha
